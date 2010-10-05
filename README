@@ -1,0 +1,10 @@
+cols -- take a file from the command line and cut it down to a specified number of columns, preserving whole words, then put it in the target file. Default 80 columns.
+
+This program is licensed under the WTFPL, found at http://sam.zoy.org/wtfpl. I don't mean to be vulgar, but this best specifies my wishes for the code.
+
+Original code written by Mark Holmquist at the University of Redlands in 2010.
+
+Usage examples:
+  cols file1 file2 -- cut file1 to 80 columns, put the result into file2.
+  cols -c 50 file1 file2 -- cut file1 to 50 columns, put the result into file2.
+  cols file1 -- cut file1 to 80 columns, and replace the contents of that file with the result.
