@@ -8,3 +8,5 @@ Usage examples:
   cols file1 file2 -- cut file1 to 80 columns, put the result into file2.
   cols -c 50 file1 file2 -- cut file1 to 50 columns, put the result into file2.
   cols file1 -- cut file1 to 80 columns, and replace the contents of that file with the result.
+
+Note: This program is not like cut(1). Cut will not preserve the contents of the line as new lines, but will simply remove parts of the line that exceed the specified column. This program is more useful if one needs a file to adhere to a specified width, but should still have all of the content.

@@ -1,3 +1,5 @@
 * Figure out automake/conf, and configure things correctly for those.
 * Add content-sensitive hyphen use (preserving syllables, for example)
-* Help command-line option (-? or -h)
+* Handle tabs, so that word separators are widely supported
+* Detect if there are strange line endings: '\r\n' and the like
+* Preserve indentation (for source code and the like)
