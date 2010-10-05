@@ -1,0 +1,3 @@
+* Figure out automake/conf, and configure things correctly for those.
+* Add content-sensitive hyphen use (preserving syllables, for example)
+* Help command-line option (-? or -h)

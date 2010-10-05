@@ -1,0 +1,4 @@
+To install:
+  Currently, there is no accepted method for installing. I just make it and run it from the current directory. If you want to put it somewhere in your path, you can do so easily after you compile it.
+
+  Compilation is as easy as `g++ -o cols cols.cpp`, so there shouldn't be any too-complicated install procedures.
